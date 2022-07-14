@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝐌𝐚𝐧𝐨𝐣 𝐏𝐫𝐨𝐟𝐢𝐥𝐞</title>
+</head>
+
+<body>
+    <header>
+        <nav class="pro">
+            <h1>𝓟𝓡𝓞𝓕𝓘𝓛𝓔</h1>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                <a href="#about">About</a>
+                </li>
+                <li>
+                <a href="#edu">Education</a>
+                </li>
+                <li>
+                <a href="#home">Works</a>
+                </li>
+                <li>
+                <a href="#home">Gallery</a>
+                </li>
+                <li>
+                <a href="#home">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="home">
+        
+        <div class="txt">
+            <h1>Hi! My Name is</h1>
+        </div>
+        <div class="nam">
+            <h1>MANOJ.K</h1>
+        </div>
+
+
+    </section>
+
+    <section class="abt">
+        <div id="about" class="about">
+
+            <div class="profile">
+                <div>
+                    <p>About</p>
+                    <img src="./image/DSC02435-01.jpeg" alt="">
+                   
+                </div>
+                <div>
+                    <h1 class="protxt">
+                        As a Beginner in the Industrial field, while making a positive
+                        contribution, I would like to build a career, making the best use of my creative
+                        and logical skills to perform the job efficiency.
+                    </h1>
+                    <div class="button>"><button><a target="_blank" href="./Resume.pdf" alt=""> Download CV</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education">
+        <div id="edu" class="edu">
+            <div class="educ">
+                <div>
+                    <h1>Education</h1>
+                    <img src="./image/Education.jpg" alt="">
+                </div>
+                <div>
+                    <p class="study">
+                        sslc
+                        hsc
+                        clg
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+
+</body>
+<style>
+     * {
+     margin: 0;
+     padding: 0;
+     outline: none;
+ }
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ body {
+     background: url(./image/photo-1457449940276-e8deed18bfff.avif);
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+
+ section{
+    max-width: 1400px;
+ }
+
+ nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000000;
+    
+ }
+ header .pro h1 {
+     font-size: 3rem;
+     color: crimson;
+     margin-left: 70px;
+     padding: 10px;
+ }
+ header .pro ul li{
+    list-style: none;
+    display: inline-flex;
+ }
+
+ header .pro ul li a {
+     font-size: 1.2rem;
+     color: aliceblue;
+     cursor: pointer;
+     text-decoration: none;
+     padding: 5px;
+ }
+ 
+ header .pro ul li a:hover {
+     color: aqua;
+     text-decoration: underline;
+
+ }
+
+ .txt {
+     font-size: 3rem;
+     color: rgb(223, 33, 144);
+     margin-top: 20%;
+     margin-left: 100px;
+ }
+
+ .nam {
+     font-size: 4rem;
+     margin-left: 100px;
+     color: rgb(255, 255, 255);
+ }
+
+
+ .about {
+     background-color: black;
+     background-attachment: fixed;
+ }
+
+ section {
+     width: 100vw;
+     height: 100vh;
+ }
+
+ .profile img {
+     margin-top: 15rem;
+     margin-left: 0;
+     width: 20rem;
+     height: 25rem;
+ }
+
+ .abt .about .profile {
+     background-color: #000000;
+     width: 100vw;
+     height: 100vh;
+     display: grid ;
+     grid-template-columns: repeat(2,1fr);
+ }
+
+.abt .profile img{
+    margin-top: 8rem;
+    margin-left: 10rem;
+ }
+ .abt .profile .protxt{
+    margin-top: 22rem;
+ }
+
+ button{
+    background-color: rgb(252, 7, 7);
+    padding: 5px 5px;
+    border-radius: 30px;
+    margin-left: 10rem;
+    margin-top: 3rem;
+
+ }
+ button a{
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 2rem;
+ }
+
+ .protxt{
+    color: aliceblue;
+    float: right;
+    margin-top: 30rem;
+    margin-right: 10rem;
+    font-size: 2rem;
+    word-wrap: break-word;
+   
+ }
+ .img1{
+    float: right;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem; 
+ }
+ .img1 ol{
+    top: 50%;
+ }
+ .img1 ol li{
+    line-height: 5rem;
+    list-style: none;
+ }
+ .profile .protxt h1{
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #000000;
+ }
+ .profile p{
+    font-size: 4rem;
+    color: aliceblue;
+    margin-top: 2rem;
+    margin-left: 2rem;
+ }
+.education{
+    background-color: #000000;
+}
+.educ img{
+    margin-top: 6rem;
+     margin-left: 6rem;
+     width: 25rem;
+     height: 30rem;
+}
+.educ h1{
+    color: aliceblue;
+    font-size: 4rem;
+    margin-left: 5rem;
+}
+
+</style>
+</html>
